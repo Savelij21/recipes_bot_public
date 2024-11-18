@@ -1,0 +1,25 @@
+../.idea
+__pycache__/
+
+venv/
+
+*.sqlite3
+backups/
+
+# Игнорировать все файлы миграций во всех приложениях
+**/migrations/*.py[cod]
+**/migrations/*.py
+# Исключить специальные файлы миграций из игнорирования
+!**/migrations/__init__.py
+
+*.csv
+
+
+
+# Игнорировать все файлы .env
+*.env
+# За исключением .env.example
+!.env.example
+
+*.log
+logs/

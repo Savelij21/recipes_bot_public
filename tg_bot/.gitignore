@@ -1,0 +1,20 @@
+../.idea
+__pycache__/
+
+
+
+#*.sqlite3 for dev
+backups/
+
+
+*.csv
+
+
+
+# Игнорировать все файлы .env
+*.env
+# За исключением .env.example
+!.env.example
+
+*.log
+logs/
